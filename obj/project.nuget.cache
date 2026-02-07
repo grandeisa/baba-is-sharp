@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "65+PLRRwhLc=",
+  "dgSpecHash": "XLF/2fDvoxQ=",
   "success": true,
   "projectFilePath": "/home/hero/dev/cs/baba-is-sharp/baba-is-sharp.csproj",
   "expectedPackageFiles": [
+    "/home/hero/.nuget/packages/raylib-cs/7.0.2/raylib-cs.7.0.2.nupkg.sha512",
     "/home/hero/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.0/microsoft.aspnetcore.app.ref.10.0.0.nupkg.sha512"
   ],
   "logs": []

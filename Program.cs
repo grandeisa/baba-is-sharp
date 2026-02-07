@@ -4,12 +4,13 @@ public static class Game
 {
 
 #region window-variables
-    const int WIDTH = 400, HEIGHT = 400;
+    const int WIDTH = 600, HEIGHT = 600;
     const int TARGET_FPS = 60;
 
     static readonly string Title = "Baba is #";
 #endregion
 
+    static IScene current_scene = new GridScene();
 
     static void Main()
     {
@@ -17,8 +18,13 @@ public static class Game
 
         Raylib.SetTargetFPS(TARGET_FPS);
 
+        Actor.LoadSpritesheets();
+
+        current_scene.Start();
+
         while(!Raylib.WindowShouldClose())
         {
+            current_scene.Update();
             Render();
         }
 
@@ -30,9 +36,9 @@ public static class Game
         Raylib.ClearBackground(Color.Black);
 
         Raylib.BeginDrawing();
-            Raylib.DrawFPS(0, 0);
+            current_scene.Render();
 
-
+            //Raylib.DrawFPS(0, 0);
         Raylib.EndDrawing();
     }
 }

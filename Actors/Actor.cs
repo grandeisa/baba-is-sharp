@@ -28,8 +28,6 @@ public class Actor
         this.name = name;
         this.position = position;
 
-        
-
     }
 
 
@@ -44,11 +42,11 @@ public class Actor
         if(type == "thing")
         {
             texture = ThingSpritesheet;
-            textureRec = new(ThingSpritePosition[name], SIZE);
+            textureRec = new(ThingSpritePosition[name] * SIZE, SIZE);
         }else if(type == "text")
         {
             texture = TextSpritesheet;
-            textureRec = new(TextSpritePosition[name], SIZE);
+            textureRec = new(TextSpritePosition[name] * SIZE, SIZE);
         }
     }
 

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("baba-is-sharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed3aaab6caee56c51588dc097dec543d58349b5c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c0dd93dabc8922d1782696d1292f1b594be0884")]
 [assembly: System.Reflection.AssemblyProductAttribute("baba-is-sharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("baba-is-sharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
